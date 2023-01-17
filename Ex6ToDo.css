@@ -1,7 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Palanquin+Dark:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Palanquin+Dark:wght@600&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Eczar:wght@500&family=Palanquin+Dark:wght@600&family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 h2{
     text-align: center;
-    font-family: 'Calistoga', cursive;
-    font-size: 36px;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 38px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    color: aliceblue;
+    height: 10vh;
+}
+#container{
+    background-color: lavender;
+    min-height: 90vh;
+}
+.buttons{
+    background-color: rgb(12, 103, 97);
+    color: ghostwhite;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Eczar', serif;
+    font-size: 20px;
+}
+.todos{
+    background-color: rgb(12, 103, 97);
+    /* background: #f9f9f9; */
+    color: ghostwhite;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Eczar', serif;
+    font-size: 20px;
+}
+::placeholder{
+    color: aliceblue;
 }
